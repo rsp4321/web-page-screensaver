@@ -109,6 +109,11 @@
             // nudRotationInterval
             // 
             this.nudRotationInterval.Location = new System.Drawing.Point(15, 230);
+            this.nudRotationInterval.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
             this.nudRotationInterval.Name = "nudRotationInterval";
             this.nudRotationInterval.Size = new System.Drawing.Size(40, 20);
             this.nudRotationInterval.TabIndex = 7;
